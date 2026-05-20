@@ -1,0 +1,1967 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.1
+2 info using node@v18.18.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/Users/davidyong/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @google/generative-ai
+22 verbose argv "install" "@google/generative-ai" "--cache" ".npm-cache"
+23 timing npm:load:setTitle Completed in 7ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/.npm-cache/_logs/2026-05-20T16_15_39_411Z-
+26 verbose logfile /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/.npm-cache/_logs/2026-05-20T16_15_39_411Z-debug-0.log
+27 timing npm:load:logFile Completed in 5ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 27ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 137ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @google/generative-ai@*
+37 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+38 http fetch GET 200 https://registry.npmjs.org/@google%2fgenerative-ai 867ms (cache miss)
+39 silly placeDep ROOT @google/generative-ai@0.24.1 OK for: aetheris@0.1.0 want: *
+40 timing idealTree:#root Completed in 871ms
+41 timing idealTree:node_modules/@google/generative-ai Completed in 0ms
+42 timing idealTree:buildDeps Completed in 872ms
+43 timing idealTree:fixDepFlags Completed in 2ms
+44 warn EBADENGINE Unsupported engine {
+44 warn EBADENGINE   package: '@asamuzakjp/css-color@5.1.11',
+44 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+44 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+44 warn EBADENGINE }
+45 warn EBADENGINE Unsupported engine {
+45 warn EBADENGINE   package: '@asamuzakjp/dom-selector@7.1.1',
+45 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+45 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+45 warn EBADENGINE }
+46 warn EBADENGINE Unsupported engine {
+46 warn EBADENGINE   package: '@asamuzakjp/generational-cache@1.0.1',
+46 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+46 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+46 warn EBADENGINE }
+47 warn EBADENGINE Unsupported engine {
+47 warn EBADENGINE   package: '@csstools/color-helpers@6.0.2',
+47 warn EBADENGINE   required: { node: '>=20.19.0' },
+47 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+47 warn EBADENGINE }
+48 warn EBADENGINE Unsupported engine {
+48 warn EBADENGINE   package: '@csstools/css-calc@3.2.1',
+48 warn EBADENGINE   required: { node: '>=20.19.0' },
+48 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+48 warn EBADENGINE }
+49 warn EBADENGINE Unsupported engine {
+49 warn EBADENGINE   package: '@csstools/css-color-parser@4.1.1',
+49 warn EBADENGINE   required: { node: '>=20.19.0' },
+49 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+49 warn EBADENGINE }
+50 warn EBADENGINE Unsupported engine {
+50 warn EBADENGINE   package: '@csstools/css-parser-algorithms@4.0.0',
+50 warn EBADENGINE   required: { node: '>=20.19.0' },
+50 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+50 warn EBADENGINE }
+51 warn EBADENGINE Unsupported engine {
+51 warn EBADENGINE   package: '@csstools/css-tokenizer@4.0.0',
+51 warn EBADENGINE   required: { node: '>=20.19.0' },
+51 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+51 warn EBADENGINE }
+52 warn EBADENGINE Unsupported engine {
+52 warn EBADENGINE   package: '@exodus/bytes@1.15.1',
+52 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+52 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+52 warn EBADENGINE }
+53 warn EBADENGINE Unsupported engine {
+53 warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+53 warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+53 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+53 warn EBADENGINE }
+54 warn EBADENGINE Unsupported engine {
+54 warn EBADENGINE   package: '@vitejs/plugin-react@6.0.2',
+54 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+54 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+54 warn EBADENGINE }
+55 warn EBADENGINE Unsupported engine {
+55 warn EBADENGINE   package: 'data-urls@7.0.0',
+55 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+55 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+55 warn EBADENGINE }
+56 warn EBADENGINE Unsupported engine {
+56 warn EBADENGINE   package: 'entities@8.0.0',
+56 warn EBADENGINE   required: { node: '>=20.19.0' },
+56 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+56 warn EBADENGINE }
+57 warn EBADENGINE Unsupported engine {
+57 warn EBADENGINE   package: 'html-encoding-sniffer@6.0.0',
+57 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+57 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+57 warn EBADENGINE }
+58 warn EBADENGINE Unsupported engine {
+58 warn EBADENGINE   package: 'jsdom@29.1.1',
+58 warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24.0.0' },
+58 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+58 warn EBADENGINE }
+59 warn EBADENGINE Unsupported engine {
+59 warn EBADENGINE   package: 'lru-cache@11.5.0',
+59 warn EBADENGINE   required: { node: '20 || >=22' },
+59 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+59 warn EBADENGINE }
+60 warn EBADENGINE Unsupported engine {
+60 warn EBADENGINE   package: 'rolldown@1.0.1',
+60 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+60 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+60 warn EBADENGINE }
+61 warn EBADENGINE Unsupported engine {
+61 warn EBADENGINE   package: 'tr46@6.0.0',
+61 warn EBADENGINE   required: { node: '>=20' },
+61 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+61 warn EBADENGINE }
+62 warn EBADENGINE Unsupported engine {
+62 warn EBADENGINE   package: 'undici@7.25.0',
+62 warn EBADENGINE   required: { node: '>=20.18.1' },
+62 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+62 warn EBADENGINE }
+63 warn EBADENGINE Unsupported engine {
+63 warn EBADENGINE   package: 'vite@8.0.13',
+63 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+63 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+63 warn EBADENGINE }
+64 warn EBADENGINE Unsupported engine {
+64 warn EBADENGINE   package: 'webidl-conversions@8.0.1',
+64 warn EBADENGINE   required: { node: '>=20' },
+64 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+64 warn EBADENGINE }
+65 warn EBADENGINE Unsupported engine {
+65 warn EBADENGINE   package: 'whatwg-mimetype@5.0.0',
+65 warn EBADENGINE   required: { node: '>=20' },
+65 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+65 warn EBADENGINE }
+66 warn EBADENGINE Unsupported engine {
+66 warn EBADENGINE   package: 'whatwg-url@16.0.1',
+66 warn EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+66 warn EBADENGINE   current: { node: 'v18.18.2', npm: '10.2.1' }
+66 warn EBADENGINE }
+67 timing idealTree Completed in 1021ms
+68 timing reify:loadTrees Completed in 1021ms
+69 timing reify:diffTrees Completed in 6ms
+70 silly reify moves {}
+71 timing reify:retireShallow Completed in 0ms
+72 timing reify:createSparse Completed in 6ms
+73 timing reify:loadBundles Completed in 0ms
+74 silly audit bulk request {
+74 silly audit   '@adobe/css-tools': [ '4.4.4' ],
+74 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+74 silly audit   '@anthropic-ai/sdk': [ '0.97.1' ],
+74 silly audit   '@asamuzakjp/css-color': [ '5.1.11' ],
+74 silly audit   '@asamuzakjp/dom-selector': [ '7.1.1' ],
+74 silly audit   '@asamuzakjp/generational-cache': [ '1.0.1' ],
+74 silly audit   '@asamuzakjp/nwsapi': [ '2.3.9' ],
+74 silly audit   '@babel/code-frame': [ '7.29.0' ],
+74 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+74 silly audit   '@babel/runtime': [ '7.29.2' ],
+74 silly audit   '@bramus/specificity': [ '2.4.2' ],
+74 silly audit   '@csstools/color-helpers': [ '6.0.2' ],
+74 silly audit   '@csstools/css-calc': [ '3.2.1' ],
+74 silly audit   '@csstools/css-color-parser': [ '4.1.1' ],
+74 silly audit   '@csstools/css-parser-algorithms': [ '4.0.0' ],
+74 silly audit   '@csstools/css-syntax-patches-for-csstree': [ '1.1.4' ],
+74 silly audit   '@csstools/css-tokenizer': [ '4.0.0' ],
+74 silly audit   '@emnapi/core': [ '1.10.0' ],
+74 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+74 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+74 silly audit   '@esbuild/aix-ppc64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/android-arm': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/android-arm64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/android-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/darwin-arm64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/darwin-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/freebsd-arm64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/freebsd-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-arm': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-arm64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-ia32': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-loong64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-mips64el': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-ppc64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-riscv64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-s390x': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/linux-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/netbsd-arm64': [ '0.28.0' ],
+74 silly audit   '@esbuild/netbsd-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/openbsd-arm64': [ '0.28.0' ],
+74 silly audit   '@esbuild/openbsd-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/openharmony-arm64': [ '0.28.0' ],
+74 silly audit   '@esbuild/sunos-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/win32-arm64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/win32-ia32': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@esbuild/win32-x64': [ '0.28.0', '0.21.5' ],
+74 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+74 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+74 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+74 silly audit   '@eslint/js': [ '8.57.1' ],
+74 silly audit   '@exodus/bytes': [ '1.15.1' ],
+74 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+74 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+74 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+74 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+74 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+74 silly audit   'strip-ansi': [ '7.2.0', '6.0.1' ],
+74 silly audit   '@jest/schemas': [ '29.6.3' ],
+74 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+74 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+74 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+74 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+74 silly audit   '@napi-rs/wasm-runtime': [ '1.1.4' ],
+74 silly audit   '@next/env': [ '14.2.35' ],
+74 silly audit   '@next/eslint-plugin-next': [ '14.2.35' ],
+74 silly audit   '@next/swc-darwin-arm64': [ '14.2.33' ],
+74 silly audit   '@next/swc-darwin-x64': [ '14.2.33' ],
+74 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.33' ],
+74 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.33' ],
+74 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.33' ],
+74 silly audit   '@next/swc-linux-x64-musl': [ '14.2.33' ],
+74 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.33' ],
+74 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.33' ],
+74 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.33' ],
+74 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+74 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+74 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+74 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+74 silly audit   '@oxc-project/types': [ '0.130.0' ],
+74 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+74 silly audit   '@reduxjs/toolkit': [ '2.12.0' ],
+74 silly audit   immer: [ '11.1.8', '10.2.0' ],
+74 silly audit   '@rolldown/binding-android-arm64': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.1' ],
+74 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.1' ],
+74 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+74 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-android-arm64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.4' ],
+74 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.4' ],
+74 silly audit   '@rtsao/scc': [ '1.1.0' ],
+74 silly audit   '@rushstack/eslint-patch': [ '1.16.1' ],
+74 silly audit   '@sinclair/typebox': [ '0.27.10' ],
+74 silly audit   '@stablelib/base64': [ '1.0.1' ],
+74 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+74 silly audit   '@standard-schema/utils': [ '0.3.0' ],
+74 silly audit   '@swc/counter': [ '0.1.3' ],
+74 silly audit   '@swc/helpers': [ '0.5.5' ],
+74 silly audit   '@testing-library/dom': [ '10.4.1' ],
+74 silly audit   'aria-query': [ '5.3.0', '5.3.2' ],
+74 silly audit   '@testing-library/jest-dom': [ '6.9.1' ],
+74 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+74 silly audit   '@testing-library/react': [ '16.3.2' ],
+74 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+74 silly audit   '@types/aria-query': [ '5.0.4' ],
+74 silly audit   '@types/d3-array': [ '3.2.2' ],
+74 silly audit   '@types/d3-color': [ '3.1.3' ],
+74 silly audit   '@types/d3-ease': [ '3.0.2' ],
+74 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+74 silly audit   '@types/d3-path': [ '3.1.1' ],
+74 silly audit   '@types/d3-scale': [ '4.0.9' ],
+74 silly audit   '@types/d3-shape': [ '3.1.8' ],
+74 silly audit   '@types/d3-time': [ '3.0.4' ],
+74 silly audit   '@types/d3-timer': [ '3.0.2' ],
+74 silly audit   '@types/estree': [ '1.0.9', '1.0.8' ],
+74 silly audit   '@types/json5': [ '0.0.29' ],
+74 silly audit   '@types/node': [ '20.19.41' ],
+74 silly audit   '@types/prop-types': [ '15.7.15' ],
+74 silly audit   '@types/react': [ '18.3.29' ],
+74 silly audit   '@types/react-dom': [ '18.3.7' ],
+74 silly audit   '@types/use-sync-external-store': [ '0.0.6' ],
+74 silly audit   '@typescript-eslint/eslint-plugin': [ '8.59.4' ],
+74 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+74 silly audit   '@typescript-eslint/parser': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/project-service': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/scope-manager': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/type-utils': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/types': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/typescript-estree': [ '8.59.4' ],
+74 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+74 silly audit   'brace-expansion': [ '5.0.6', '1.1.14', '2.1.0' ],
+74 silly audit   minimatch: [ '10.2.5', '9.0.9', '3.1.5' ],
+74 silly audit   '@typescript-eslint/utils': [ '8.59.4' ],
+74 silly audit   '@typescript-eslint/visitor-keys': [ '8.59.4' ],
+74 silly audit   'eslint-visitor-keys': [ '5.0.1', '3.4.3' ],
+74 silly audit   '@ungap/structured-clone': [ '1.3.1' ],
+74 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-loong64-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-loong64-musl': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-openharmony-arm64': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.12.2' ],
+74 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.12.2' ],
+74 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+74 silly audit   '@vitest/expect': [ '1.6.0' ],
+74 silly audit   '@vitest/runner': [ '1.6.0' ],
+74 silly audit   'p-limit': [ '5.0.0', '3.1.0' ],
+74 silly audit   'yocto-queue': [ '1.2.2', '0.1.0' ],
+74 silly audit   '@vitest/snapshot': [ '1.6.0' ],
+74 silly audit   'ansi-styles': [ '5.2.0', '4.3.0', '6.2.3' ],
+74 silly audit   'pretty-format': [ '29.7.0', '27.5.1' ],
+74 silly audit   'react-is': [ '18.3.1', '17.0.2', '16.13.1' ],
+74 silly audit   '@vitest/spy': [ '1.6.0' ],
+74 silly audit   '@vitest/utils': [ '1.6.0' ],
+74 silly audit   acorn: [ '8.16.0' ],
+74 silly audit   'acorn-jsx': [ '5.3.2' ],
+74 silly audit   'acorn-walk': [ '8.3.5' ],
+74 silly audit   ajv: [ '6.15.0' ],
+74 silly audit   'any-promise': [ '1.3.0' ],
+74 silly audit   anymatch: [ '3.1.3' ],
+74 silly audit   arg: [ '5.0.2' ],
+74 silly audit   argparse: [ '2.0.1' ],
+74 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+74 silly audit   'array-includes': [ '3.1.9' ],
+74 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+74 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+74 silly audit   'array.prototype.flat': [ '1.3.3' ],
+74 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+74 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+74 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+74 silly audit   'assertion-error': [ '1.1.0' ],
+74 silly audit   'ast-types-flow': [ '0.0.8' ],
+74 silly audit   'async-function': [ '1.0.0' ],
+74 silly audit   'available-typed-arrays': [ '1.0.7' ],
+74 silly audit   'axe-core': [ '4.11.4' ],
+74 silly audit   'axobject-query': [ '4.1.0' ],
+74 silly audit   'bidi-js': [ '1.0.3' ],
+74 silly audit   'binary-extensions': [ '2.3.0' ],
+74 silly audit   braces: [ '3.0.3' ],
+74 silly audit   busboy: [ '1.6.0' ],
+74 silly audit   cac: [ '6.7.14' ],
+74 silly audit   'call-bind': [ '1.0.9' ],
+74 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+74 silly audit   'call-bound': [ '1.0.4' ],
+74 silly audit   callsites: [ '3.1.0' ],
+74 silly audit   'camelcase-css': [ '2.0.1' ],
+74 silly audit   'caniuse-lite': [ '1.0.30001793' ],
+74 silly audit   chai: [ '4.5.0' ],
+74 silly audit   chalk: [ '4.1.2' ],
+74 silly audit   'check-error': [ '1.0.3' ],
+74 silly audit   chokidar: [ '3.6.0' ],
+74 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+74 silly audit   'client-only': [ '0.0.1' ],
+74 silly audit   clsx: [ '2.1.1' ],
+74 silly audit   'color-convert': [ '2.0.1' ],
+74 silly audit   'color-name': [ '1.1.4' ],
+74 silly audit   commander: [ '4.1.1' ],
+74 silly audit   'concat-map': [ '0.0.1' ],
+74 silly audit   confbox: [ '0.1.8' ],
+74 silly audit   'cross-spawn': [ '7.0.6' ],
+74 silly audit   'css-tree': [ '3.2.1' ],
+74 silly audit   'css.escape': [ '1.5.1' ],
+74 silly audit   cssesc: [ '3.0.0' ],
+74 silly audit   csstype: [ '3.2.3' ],
+74 silly audit   'd3-array': [ '3.2.4' ],
+74 silly audit   'd3-color': [ '3.1.0' ],
+74 silly audit   'd3-ease': [ '3.0.1' ],
+74 silly audit   'd3-format': [ '3.1.2' ],
+74 silly audit   'd3-interpolate': [ '3.0.1' ],
+74 silly audit   'd3-path': [ '3.1.0' ],
+74 silly audit   'd3-scale': [ '4.0.2' ],
+74 silly audit   'd3-shape': [ '3.2.0' ],
+74 silly audit   'd3-time': [ '3.1.0' ],
+74 silly audit   'd3-time-format': [ '4.1.0' ],
+74 silly audit   'd3-timer': [ '3.0.1' ],
+74 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+74 silly audit   'data-urls': [ '7.0.0' ],
+74 silly audit   'data-view-buffer': [ '1.0.2' ],
+74 silly audit   'data-view-byte-length': [ '1.0.2' ],
+74 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+74 silly audit   debug: [ '4.4.3', '3.2.7' ],
+74 silly audit   'decimal.js': [ '10.6.0' ],
+74 silly audit   'decimal.js-light': [ '2.5.1' ],
+74 silly audit   'deep-eql': [ '4.1.4' ],
+74 silly audit   'deep-is': [ '0.1.4' ],
+74 silly audit   'define-data-property': [ '1.1.4' ],
+74 silly audit   'define-properties': [ '1.2.1' ],
+74 silly audit   dequal: [ '2.0.3' ],
+74 silly audit   'detect-libc': [ '2.1.2' ],
+74 silly audit   didyoumean: [ '1.2.2' ],
+74 silly audit   'diff-sequences': [ '29.6.3' ],
+74 silly audit   dlv: [ '1.1.3' ],
+74 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+74 silly audit   'dunder-proto': [ '1.0.1' ],
+74 silly audit   eastasianwidth: [ '0.2.0' ],
+74 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+74 silly audit   entities: [ '8.0.0' ],
+74 silly audit   'es-abstract': [ '1.24.2' ],
+74 silly audit   'es-define-property': [ '1.0.1' ],
+74 silly audit   'es-errors': [ '1.3.0' ],
+74 silly audit   'es-iterator-helpers': [ '1.3.2' ],
+74 silly audit   'es-object-atoms': [ '1.1.1' ],
+74 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+74 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+74 silly audit   'es-to-primitive': [ '1.3.0' ],
+74 silly audit   'es-toolkit': [ '1.46.1' ],
+74 silly audit   esbuild: [ '0.28.0', '0.21.5' ],
+74 silly audit   'escape-string-regexp': [ '4.0.0' ],
+74 silly audit   eslint: [ '8.57.1' ],
+74 silly audit   'eslint-config-next': [ '14.2.35' ],
+74 silly audit   'eslint-import-resolver-node': [ '0.3.10' ],
+74 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+74 silly audit   'eslint-module-utils': [ '2.12.1' ],
+74 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+74 silly audit   semver: [ '6.3.1', '7.8.0' ],
+74 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+74 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+74 silly audit   'eslint-plugin-react-hooks': [ '5.0.0-canary-7118f5dd7-20230705' ],
+74 silly audit   'eslint-scope': [ '7.2.2' ],
+74 silly audit   espree: [ '9.6.1' ],
+74 silly audit   esquery: [ '1.7.0' ],
+74 silly audit   esrecurse: [ '4.3.0' ],
+74 silly audit   estraverse: [ '5.3.0' ],
+74 silly audit   'estree-walker': [ '3.0.3' ],
+74 silly audit   esutils: [ '2.0.3' ],
+74 silly audit   eventemitter3: [ '5.0.4' ],
+74 silly audit   execa: [ '8.0.1' ],
+74 silly audit   'fast-deep-equal': [ '3.1.3' ],
+74 silly audit   'fast-glob': [ '3.3.3' ],
+74 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+74 silly audit   'fast-levenshtein': [ '2.0.6' ],
+74 silly audit   'fast-sha256': [ '1.3.0' ],
+74 silly audit   fastq: [ '1.20.1' ],
+74 silly audit   'file-entry-cache': [ '6.0.1' ],
+74 silly audit   'fill-range': [ '7.1.1' ],
+74 silly audit   'find-up': [ '5.0.0' ],
+74 silly audit   'flat-cache': [ '3.2.0' ],
+74 silly audit   flatted: [ '3.4.2' ],
+74 silly audit   'for-each': [ '0.3.5' ],
+74 silly audit   'foreground-child': [ '3.3.1' ],
+74 silly audit   'framer-motion': [ '12.39.0' ],
+74 silly audit   'fs.realpath': [ '1.0.0' ],
+74 silly audit   fsevents: [ '2.3.3' ],
+74 silly audit   'function-bind': [ '1.1.2' ],
+74 silly audit   'function.prototype.name': [ '1.1.8' ],
+74 silly audit   'functions-have-names': [ '1.2.3' ],
+74 silly audit   'generator-function': [ '2.0.1' ],
+74 silly audit   'get-func-name': [ '2.0.2' ],
+74 silly audit   'get-intrinsic': [ '1.3.0' ],
+74 silly audit   'get-proto': [ '1.0.1' ],
+74 silly audit   'get-stream': [ '8.0.1' ],
+74 silly audit   'get-symbol-description': [ '1.1.0' ],
+74 silly audit   'get-tsconfig': [ '4.14.0' ],
+74 silly audit   glob: [ '10.3.10', '7.2.3' ],
+74 silly audit   globals: [ '13.24.0' ],
+74 silly audit   globalthis: [ '1.0.4' ],
+74 silly audit   gopd: [ '1.2.0' ],
+74 silly audit   'graceful-fs': [ '4.2.11' ],
+74 silly audit   graphemer: [ '1.4.0' ],
+74 silly audit   'has-bigints': [ '1.1.0' ],
+74 silly audit   'has-flag': [ '4.0.0' ],
+74 silly audit   'has-property-descriptors': [ '1.0.2' ],
+74 silly audit   'has-proto': [ '1.2.0' ],
+74 silly audit   'has-symbols': [ '1.1.0' ],
+74 silly audit   'has-tostringtag': [ '1.0.2' ],
+74 silly audit   hasown: [ '2.0.3' ],
+74 silly audit   'html-encoding-sniffer': [ '6.0.0' ],
+74 silly audit   'human-signals': [ '5.0.0' ],
+74 silly audit   'import-fresh': [ '3.3.1' ],
+74 silly audit   imurmurhash: [ '0.1.4' ],
+74 silly audit   'indent-string': [ '4.0.0' ],
+74 silly audit   inflight: [ '1.0.6' ],
+74 silly audit   inherits: [ '2.0.4' ],
+74 silly audit   'internal-slot': [ '1.1.0' ],
+74 silly audit   internmap: [ '2.0.3' ],
+74 silly audit   'is-array-buffer': [ '3.0.5' ],
+74 silly audit   'is-async-function': [ '2.1.1' ],
+74 silly audit   'is-bigint': [ '1.1.0' ],
+74 silly audit   'is-binary-path': [ '2.1.0' ],
+74 silly audit   'is-boolean-object': [ '1.2.2' ],
+74 silly audit   'is-bun-module': [ '2.0.0' ],
+74 silly audit   'is-callable': [ '1.2.7' ],
+74 silly audit   'is-core-module': [ '2.16.2' ],
+74 silly audit   'is-data-view': [ '1.0.2' ],
+74 silly audit   'is-date-object': [ '1.1.0' ],
+74 silly audit   'is-extglob': [ '2.1.1' ],
+74 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+74 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+74 silly audit   'is-generator-function': [ '1.1.2' ],
+74 silly audit   'is-glob': [ '4.0.3' ],
+74 silly audit   'is-map': [ '2.0.3' ],
+74 silly audit   'is-negative-zero': [ '2.0.3' ],
+74 silly audit   'is-number': [ '7.0.0' ],
+74 silly audit   'is-number-object': [ '1.1.1' ],
+74 silly audit   'is-path-inside': [ '3.0.3' ],
+74 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+74 silly audit   'is-regex': [ '1.2.1' ],
+74 silly audit   'is-set': [ '2.0.3' ],
+74 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+74 silly audit   'is-stream': [ '3.0.0' ],
+74 silly audit   'is-string': [ '1.1.1' ],
+74 silly audit   'is-symbol': [ '1.1.1' ],
+74 silly audit   'is-typed-array': [ '1.1.15' ],
+74 silly audit   'is-weakmap': [ '2.0.2' ],
+74 silly audit   'is-weakref': [ '1.1.1' ],
+74 silly audit   'is-weakset': [ '2.0.4' ],
+74 silly audit   isarray: [ '2.0.5' ],
+74 silly audit   isexe: [ '2.0.0' ],
+74 silly audit   'iterator.prototype': [ '1.1.5' ],
+74 silly audit   jackspeak: [ '2.3.6' ],
+74 silly audit   jiti: [ '1.21.7' ],
+74 silly audit   'js-tokens': [ '4.0.0', '9.0.1' ],
+74 silly audit   'js-yaml': [ '4.1.1' ],
+74 silly audit   jsdom: [ '29.1.1' ],
+74 silly audit   'lru-cache': [ '11.5.0', '10.4.3' ],
+74 silly audit   'json-buffer': [ '3.0.1' ],
+74 silly audit   'json-schema-to-ts': [ '3.1.1' ],
+74 silly audit   'json-schema-traverse': [ '0.4.1' ],
+74 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+74 silly audit   json5: [ '1.0.2' ],
+74 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+74 silly audit   keyv: [ '4.5.4' ],
+74 silly audit   'language-subtag-registry': [ '0.3.23' ],
+74 silly audit   'language-tags': [ '1.0.9' ],
+74 silly audit   levn: [ '0.4.1' ],
+74 silly audit   lightningcss: [ '1.32.0' ],
+74 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+74 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+74 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+74 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+74 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+74 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+74 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+74 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+74 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+74 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+74 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+74 silly audit   lilconfig: [ '3.1.3' ],
+74 silly audit   'lines-and-columns': [ '1.2.4' ],
+74 silly audit   'local-pkg': [ '0.5.1' ],
+74 silly audit   'locate-path': [ '6.0.0' ],
+74 silly audit   'lodash.merge': [ '4.6.2' ],
+74 silly audit   'loose-envify': [ '1.4.0' ],
+74 silly audit   loupe: [ '2.3.7' ],
+74 silly audit   'lucide-react': [ '1.16.0' ],
+74 silly audit   'lz-string': [ '1.5.0' ],
+74 silly audit   'magic-string': [ '0.30.21' ],
+74 silly audit   'math-intrinsics': [ '1.1.0' ],
+74 silly audit   'mdn-data': [ '2.27.1' ],
+74 silly audit   'merge-stream': [ '2.0.0' ],
+74 silly audit   merge2: [ '1.4.1' ],
+74 silly audit   micromatch: [ '4.0.8' ],
+74 silly audit   'mimic-fn': [ '4.0.0' ],
+74 silly audit   'min-indent': [ '1.0.1' ],
+74 silly audit   minimist: [ '1.2.8' ],
+74 silly audit   minipass: [ '7.1.3' ],
+74 silly audit   mlly: [ '1.8.2' ],
+74 silly audit   pathe: [ '2.0.3', '1.1.2' ],
+74 silly audit   'motion-dom': [ '12.39.0' ],
+74 silly audit   'motion-utils': [ '12.39.0' ],
+74 silly audit   ms: [ '2.1.3' ],
+74 silly audit   mz: [ '2.7.0' ],
+74 silly audit   nanoid: [ '3.3.12' ],
+74 silly audit   'napi-postinstall': [ '0.3.4' ],
+74 silly audit   'natural-compare': [ '1.4.0' ],
+74 silly audit   next: [ '14.2.35' ],
+74 silly audit   'next-themes': [ '0.4.6' ],
+74 silly audit   postcss: [ '8.4.31', '8.5.15' ],
+74 silly audit   'node-exports-info': [ '1.6.0' ],
+74 silly audit   'normalize-path': [ '3.0.0' ],
+74 silly audit   'npm-run-path': [ '5.3.0' ],
+74 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+74 silly audit   'object-assign': [ '4.1.1' ],
+74 silly audit   'object-hash': [ '3.0.0' ],
+74 silly audit   'object-inspect': [ '1.13.4' ],
+74 silly audit   'object-keys': [ '1.1.1' ],
+74 silly audit   'object.assign': [ '4.1.7' ],
+74 silly audit   'object.entries': [ '1.1.9' ],
+74 silly audit   'object.fromentries': [ '2.0.8' ],
+74 silly audit   'object.groupby': [ '1.0.3' ],
+74 silly audit   'object.values': [ '1.2.1' ],
+74 silly audit   once: [ '1.4.0' ],
+74 silly audit   onetime: [ '6.0.0' ],
+74 silly audit   optionator: [ '0.9.4' ],
+74 silly audit   'own-keys': [ '1.0.1' ],
+74 silly audit   'p-locate': [ '5.0.0' ],
+74 silly audit   'parent-module': [ '1.0.1' ],
+74 silly audit   parse5: [ '8.0.1' ],
+74 silly audit   'path-exists': [ '4.0.0' ],
+74 silly audit   'path-is-absolute': [ '1.0.1' ],
+74 silly audit   'path-parse': [ '1.0.7' ],
+74 silly audit   'path-scurry': [ '1.11.1' ],
+74 silly audit   pathval: [ '1.1.1' ],
+74 silly audit   picocolors: [ '1.1.1' ],
+74 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+74 silly audit   pify: [ '2.3.0' ],
+74 silly audit   pirates: [ '4.0.7' ],
+74 silly audit   'pkg-types': [ '1.3.1' ],
+74 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+74 silly audit   'postcss-import': [ '15.1.0' ],
+74 silly audit   resolve: [ '1.22.12', '2.0.0-next.7' ],
+74 silly audit   'postcss-js': [ '4.1.0' ],
+74 silly audit   'postcss-load-config': [ '6.0.1' ],
+74 silly audit   'postcss-nested': [ '6.2.0' ],
+74 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+74 silly audit   'postcss-value-parser': [ '4.2.0' ],
+74 silly audit   'prelude-ls': [ '1.2.1' ],
+74 silly audit   'prop-types': [ '15.8.1' ],
+74 silly audit   punycode: [ '2.3.1' ],
+74 silly audit   'queue-microtask': [ '1.2.3' ],
+74 silly audit   react: [ '18.3.1' ],
+74 silly audit   'react-dom': [ '18.3.1' ],
+74 silly audit   'react-redux': [ '9.3.0' ],
+74 silly audit   'read-cache': [ '1.0.0' ],
+74 silly audit   readdirp: [ '3.6.0' ],
+74 silly audit   recharts: [ '3.8.1' ],
+74 silly audit   redent: [ '3.0.0' ],
+74 silly audit   redux: [ '5.0.1' ],
+74 silly audit   'redux-thunk': [ '3.1.0' ],
+74 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+74 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+74 silly audit   'require-from-string': [ '2.0.2' ],
+74 silly audit   reselect: [ '5.1.1' ],
+74 silly audit   'resolve-from': [ '4.0.0' ],
+74 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+74 silly audit   reusify: [ '1.1.0' ],
+74 silly audit   rimraf: [ '3.0.2' ],
+74 silly audit   rolldown: [ '1.0.1' ],
+74 silly audit   rollup: [ '4.60.4' ],
+74 silly audit   'run-parallel': [ '1.2.0' ],
+74 silly audit   'safe-array-concat': [ '1.1.4' ],
+74 silly audit   'safe-push-apply': [ '1.0.0' ],
+74 silly audit   'safe-regex-test': [ '1.1.0' ],
+74 silly audit   saxes: [ '6.0.0' ],
+74 silly audit   scheduler: [ '0.23.2' ],
+74 silly audit   'set-function-length': [ '1.2.2' ],
+74 silly audit   'set-function-name': [ '2.0.2' ],
+74 silly audit   'set-proto': [ '1.0.0' ],
+74 silly audit   'shebang-command': [ '2.0.0' ],
+74 silly audit   'shebang-regex': [ '3.0.0' ],
+74 silly audit   'side-channel': [ '1.1.0' ],
+74 silly audit   'side-channel-list': [ '1.0.1' ],
+74 silly audit   'side-channel-map': [ '1.0.1' ],
+74 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+74 silly audit   siginfo: [ '2.0.0' ],
+74 silly audit   'signal-exit': [ '4.1.0' ],
+74 silly audit   'source-map-js': [ '1.2.1' ],
+74 silly audit   'stable-hash': [ '0.0.5' ],
+74 silly audit   stackback: [ '0.0.2' ],
+74 silly audit   standardwebhooks: [ '1.0.0' ],
+74 silly audit   'std-env': [ '3.10.0' ],
+74 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+74 silly audit   streamsearch: [ '1.1.0' ],
+74 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+74 silly audit   'string.prototype.includes': [ '2.0.1' ],
+74 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+74 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+74 silly audit   'string.prototype.trim': [ '1.2.10' ],
+74 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+74 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+74 silly audit   'strip-bom': [ '3.0.0' ],
+74 silly audit   'strip-final-newline': [ '3.0.0' ],
+74 silly audit   'strip-indent': [ '3.0.0' ],
+74 silly audit   'strip-json-comments': [ '3.1.1' ],
+74 silly audit   'strip-literal': [ '2.1.1' ],
+74 silly audit   'styled-jsx': [ '5.1.1' ],
+74 silly audit   sucrase: [ '3.35.1' ],
+74 silly audit   'supports-color': [ '7.2.0' ],
+74 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+74 silly audit   'symbol-tree': [ '3.2.4' ],
+74 silly audit   tailwindcss: [ '3.4.19' ],
+74 silly audit   'text-table': [ '0.2.0' ],
+74 silly audit   thenify: [ '3.3.1' ],
+74 silly audit   'thenify-all': [ '1.6.0' ],
+74 silly audit   'tiny-invariant': [ '1.3.3' ],
+74 silly audit   tinybench: [ '2.9.0' ],
+74 silly audit   tinyglobby: [ '0.2.16' ],
+74 silly audit   fdir: [ '6.5.0' ],
+74 silly audit   tinypool: [ '0.8.4' ],
+74 silly audit   tinyspy: [ '2.2.1' ],
+74 silly audit   tldts: [ '7.0.30' ],
+74 silly audit   'tldts-core': [ '7.0.30' ],
+74 silly audit   'to-regex-range': [ '5.0.1' ],
+74 silly audit   'tough-cookie': [ '6.0.1' ],
+74 silly audit   tr46: [ '6.0.0' ],
+74 silly audit   'ts-algebra': [ '2.0.0' ],
+74 silly audit   'ts-api-utils': [ '2.5.0' ],
+74 silly audit   'ts-interface-checker': [ '0.1.13' ],
+74 silly audit   'tsconfig-paths': [ '3.15.0' ],
+74 silly audit   tslib: [ '2.8.1' ],
+74 silly audit   'type-check': [ '0.4.0' ],
+74 silly audit   'type-detect': [ '4.1.0' ],
+74 silly audit   'type-fest': [ '0.20.2' ],
+74 silly audit   'typed-array-buffer': [ '1.0.3' ],
+74 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+74 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+74 silly audit   'typed-array-length': [ '1.0.7' ],
+74 silly audit   typescript: [ '5.9.3' ],
+74 silly audit   ufo: [ '1.6.4' ],
+74 silly audit   'unbox-primitive': [ '1.1.0' ],
+74 silly audit   undici: [ '7.25.0' ],
+74 silly audit   'undici-types': [ '6.21.0' ],
+74 silly audit   'unrs-resolver': [ '1.12.2' ],
+74 silly audit   'uri-js': [ '4.4.1' ],
+74 silly audit   'use-sync-external-store': [ '1.6.0' ],
+74 silly audit   'util-deprecate': [ '1.0.2' ],
+74 silly audit   'victory-vendor': [ '37.3.6' ],
+74 silly audit   vite: [ '8.0.13', '5.4.21' ],
+74 silly audit   'vite-node': [ '1.6.0' ],
+74 silly audit   vitest: [ '1.6.0' ],
+74 silly audit   'w3c-xmlserializer': [ '5.0.0' ],
+74 silly audit   'webidl-conversions': [ '8.0.1' ],
+74 silly audit   'whatwg-mimetype': [ '5.0.0' ],
+74 silly audit   'whatwg-url': [ '16.0.1' ],
+74 silly audit   which: [ '2.0.2' ],
+74 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+74 silly audit   'which-builtin-type': [ '1.2.1' ],
+74 silly audit   'which-collection': [ '1.0.2' ],
+74 silly audit   'which-typed-array': [ '1.1.20' ],
+74 silly audit   'why-is-node-running': [ '2.3.0' ],
+74 silly audit   'word-wrap': [ '1.2.5' ],
+74 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+74 silly audit   wrappy: [ '1.0.2' ],
+74 silly audit   'xml-name-validator': [ '5.0.0' ],
+74 silly audit   xmlchars: [ '2.2.0' ],
+74 silly audit   '@google/generative-ai': [ '0.24.1' ]
+74 silly audit }
+75 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-win32-x64-msvc
+76 silly reify mark deleted [
+76 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-win32-x64-msvc'
+76 silly reify ]
+77 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-win32-arm64-msvc
+78 silly reify mark deleted [
+78 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-win32-arm64-msvc'
+78 silly reify ]
+79 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-x64-musl
+80 silly reify mark deleted [
+80 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-x64-musl'
+80 silly reify ]
+81 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-x64-gnu
+82 silly reify mark deleted [
+82 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-x64-gnu'
+82 silly reify ]
+83 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm64-musl
+84 silly reify mark deleted [
+84 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm64-musl'
+84 silly reify ]
+85 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm64-gnu
+86 silly reify mark deleted [
+86 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm64-gnu'
+86 silly reify ]
+87 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm-gnueabihf
+88 silly reify mark deleted [
+88 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-linux-arm-gnueabihf'
+88 silly reify ]
+89 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-freebsd-x64
+90 silly reify mark deleted [
+90 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-freebsd-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-darwin-x64
+92 silly reify mark deleted [
+92 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-darwin-x64'
+92 silly reify ]
+93 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-android-arm64
+94 silly reify mark deleted [
+94 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/lightningcss-android-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-x64-msvc
+96 silly reify mark deleted [
+96 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+96 silly reify ]
+97 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+98 silly reify mark deleted [
+98 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+98 silly reify ]
+99 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+100 silly reify mark deleted [
+100 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+100 silly reify ]
+101 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-wasm32-wasi
+102 silly reify mark deleted [
+102 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-wasm32-wasi'
+102 silly reify ]
+103 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-openharmony-arm64
+104 silly reify mark deleted [
+104 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-openharmony-arm64'
+104 silly reify ]
+105 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-x64-musl
+106 silly reify mark deleted [
+106 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-x64-musl'
+106 silly reify ]
+107 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-x64-gnu
+108 silly reify mark deleted [
+108 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+108 silly reify ]
+109 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+110 silly reify mark deleted [
+110 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+110 silly reify ]
+111 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+112 silly reify mark deleted [
+112 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+112 silly reify ]
+113 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+114 silly reify mark deleted [
+114 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+114 silly reify ]
+115 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+116 silly reify mark deleted [
+116 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+116 silly reify ]
+117 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-loong64-musl
+118 silly reify mark deleted [
+118 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-loong64-musl'
+118 silly reify ]
+119 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-loong64-gnu
+120 silly reify mark deleted [
+120 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-loong64-gnu'
+120 silly reify ]
+121 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm64-musl
+122 silly reify mark deleted [
+122 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+122 silly reify ]
+123 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+124 silly reify mark deleted [
+124 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+124 silly reify ]
+125 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+126 silly reify mark deleted [
+126 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+126 silly reify ]
+127 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+128 silly reify mark deleted [
+128 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+128 silly reify ]
+129 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-freebsd-x64
+130 silly reify mark deleted [
+130 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-freebsd-x64'
+130 silly reify ]
+131 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-darwin-x64
+132 silly reify mark deleted [
+132 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-darwin-x64'
+132 silly reify ]
+133 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-android-arm64
+134 silly reify mark deleted [
+134 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-android-arm64'
+134 silly reify ]
+135 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-android-arm-eabi
+136 silly reify mark deleted [
+136 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@unrs/resolver-binding-android-arm-eabi'
+136 silly reify ]
+137 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-x64-msvc
+138 silly reify mark deleted [
+138 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-x64-msvc'
+138 silly reify ]
+139 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-x64-gnu
+140 silly reify mark deleted [
+140 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-x64-gnu'
+140 silly reify ]
+141 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-ia32-msvc
+142 silly reify mark deleted [
+142 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-ia32-msvc'
+142 silly reify ]
+143 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-arm64-msvc
+144 silly reify mark deleted [
+144 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-win32-arm64-msvc'
+144 silly reify ]
+145 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-openharmony-arm64
+146 silly reify mark deleted [
+146 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-openharmony-arm64'
+146 silly reify ]
+147 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-openbsd-x64
+148 silly reify mark deleted [
+148 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-openbsd-x64'
+148 silly reify ]
+149 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-x64-musl
+150 silly reify mark deleted [
+150 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-x64-musl'
+150 silly reify ]
+151 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-x64-gnu
+152 silly reify mark deleted [
+152 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-x64-gnu'
+152 silly reify ]
+153 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-s390x-gnu
+154 silly reify mark deleted [
+154 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-s390x-gnu'
+154 silly reify ]
+155 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-riscv64-musl
+156 silly reify mark deleted [
+156 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-riscv64-musl'
+156 silly reify ]
+157 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-riscv64-gnu
+158 silly reify mark deleted [
+158 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-riscv64-gnu'
+158 silly reify ]
+159 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-ppc64-musl
+160 silly reify mark deleted [
+160 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-ppc64-musl'
+160 silly reify ]
+161 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-ppc64-gnu
+162 silly reify mark deleted [
+162 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-ppc64-gnu'
+162 silly reify ]
+163 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-loong64-musl
+164 silly reify mark deleted [
+164 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-loong64-musl'
+164 silly reify ]
+165 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-loong64-gnu
+166 silly reify mark deleted [
+166 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-loong64-gnu'
+166 silly reify ]
+167 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm64-musl
+168 silly reify mark deleted [
+168 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm64-musl'
+168 silly reify ]
+169 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm64-gnu
+170 silly reify mark deleted [
+170 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm64-gnu'
+170 silly reify ]
+171 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm-musleabihf
+172 silly reify mark deleted [
+172 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm-musleabihf'
+172 silly reify ]
+173 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm-gnueabihf
+174 silly reify mark deleted [
+174 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+174 silly reify ]
+175 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-freebsd-x64
+176 silly reify mark deleted [
+176 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-freebsd-x64'
+176 silly reify ]
+177 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-freebsd-arm64
+178 silly reify mark deleted [
+178 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-freebsd-arm64'
+178 silly reify ]
+179 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-darwin-x64
+180 silly reify mark deleted [
+180 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-darwin-x64'
+180 silly reify ]
+181 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-android-arm64
+182 silly reify mark deleted [
+182 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-android-arm64'
+182 silly reify ]
+183 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-android-arm-eabi
+184 silly reify mark deleted [
+184 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rollup/rollup-android-arm-eabi'
+184 silly reify ]
+185 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-win32-x64-msvc
+186 silly reify mark deleted [
+186 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-win32-x64-msvc'
+186 silly reify ]
+187 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-win32-arm64-msvc
+188 silly reify mark deleted [
+188 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-win32-arm64-msvc'
+188 silly reify ]
+189 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-wasm32-wasi
+190 silly reify mark deleted [
+190 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-wasm32-wasi'
+190 silly reify ]
+191 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-openharmony-arm64
+192 silly reify mark deleted [
+192 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-openharmony-arm64'
+192 silly reify ]
+193 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-x64-musl
+194 silly reify mark deleted [
+194 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-x64-musl'
+194 silly reify ]
+195 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-x64-gnu
+196 silly reify mark deleted [
+196 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-x64-gnu'
+196 silly reify ]
+197 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-s390x-gnu
+198 silly reify mark deleted [
+198 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-s390x-gnu'
+198 silly reify ]
+199 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-ppc64-gnu
+200 silly reify mark deleted [
+200 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-ppc64-gnu'
+200 silly reify ]
+201 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm64-musl
+202 silly reify mark deleted [
+202 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm64-musl'
+202 silly reify ]
+203 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm64-gnu
+204 silly reify mark deleted [
+204 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm64-gnu'
+204 silly reify ]
+205 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm-gnueabihf
+206 silly reify mark deleted [
+206 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-linux-arm-gnueabihf'
+206 silly reify ]
+207 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-freebsd-x64
+208 silly reify mark deleted [
+208 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-freebsd-x64'
+208 silly reify ]
+209 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-darwin-x64
+210 silly reify mark deleted [
+210 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-darwin-x64'
+210 silly reify ]
+211 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-darwin-arm64
+212 silly reify mark deleted [
+212 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-darwin-arm64'
+212 silly reify ]
+213 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-android-arm64
+214 silly reify mark deleted [
+214 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@rolldown/binding-android-arm64'
+214 silly reify ]
+215 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-x64-msvc
+216 silly reify mark deleted [
+216 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-x64-msvc'
+216 silly reify ]
+217 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-ia32-msvc
+218 silly reify mark deleted [
+218 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-ia32-msvc'
+218 silly reify ]
+219 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-arm64-msvc
+220 silly reify mark deleted [
+220 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-win32-arm64-msvc'
+220 silly reify ]
+221 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-x64-musl
+222 silly reify mark deleted [
+222 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-x64-musl'
+222 silly reify ]
+223 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-x64-gnu
+224 silly reify mark deleted [
+224 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-x64-gnu'
+224 silly reify ]
+225 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-arm64-musl
+226 silly reify mark deleted [
+226 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-arm64-musl'
+226 silly reify ]
+227 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-arm64-gnu
+228 silly reify mark deleted [
+228 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-linux-arm64-gnu'
+228 silly reify ]
+229 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-darwin-x64
+230 silly reify mark deleted [
+230 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@next/swc-darwin-x64'
+230 silly reify ]
+231 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-x64
+232 silly reify mark deleted [
+232 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-x64'
+232 silly reify ]
+233 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-ia32
+234 silly reify mark deleted [
+234 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-ia32'
+234 silly reify ]
+235 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-arm64
+236 silly reify mark deleted [
+236 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/win32-arm64'
+236 silly reify ]
+237 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/sunos-x64
+238 silly reify mark deleted [
+238 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/sunos-x64'
+238 silly reify ]
+239 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openharmony-arm64
+240 silly reify mark deleted [
+240 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openharmony-arm64'
+240 silly reify ]
+241 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openbsd-x64
+242 silly reify mark deleted [
+242 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openbsd-x64'
+242 silly reify ]
+243 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openbsd-arm64
+244 silly reify mark deleted [
+244 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/openbsd-arm64'
+244 silly reify ]
+245 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/netbsd-x64
+246 silly reify mark deleted [
+246 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/netbsd-x64'
+246 silly reify ]
+247 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/netbsd-arm64
+248 silly reify mark deleted [
+248 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/netbsd-arm64'
+248 silly reify ]
+249 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-x64
+250 silly reify mark deleted [
+250 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-x64'
+250 silly reify ]
+251 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-s390x
+252 silly reify mark deleted [
+252 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-s390x'
+252 silly reify ]
+253 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-riscv64
+254 silly reify mark deleted [
+254 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-riscv64'
+254 silly reify ]
+255 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-ppc64
+256 silly reify mark deleted [
+256 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-ppc64'
+256 silly reify ]
+257 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-mips64el
+258 silly reify mark deleted [
+258 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-mips64el'
+258 silly reify ]
+259 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-loong64
+260 silly reify mark deleted [
+260 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-loong64'
+260 silly reify ]
+261 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-ia32
+262 silly reify mark deleted [
+262 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-ia32'
+262 silly reify ]
+263 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-arm64
+264 silly reify mark deleted [
+264 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-arm64'
+264 silly reify ]
+265 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-arm
+266 silly reify mark deleted [
+266 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/linux-arm'
+266 silly reify ]
+267 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/freebsd-x64
+268 silly reify mark deleted [
+268 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/freebsd-x64'
+268 silly reify ]
+269 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/freebsd-arm64
+270 silly reify mark deleted [
+270 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/freebsd-arm64'
+270 silly reify ]
+271 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/darwin-x64
+272 silly reify mark deleted [
+272 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/darwin-x64'
+272 silly reify ]
+273 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-x64
+274 silly reify mark deleted [
+274 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-x64'
+274 silly reify ]
+275 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-arm64
+276 silly reify mark deleted [
+276 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-arm64'
+276 silly reify ]
+277 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-arm
+278 silly reify mark deleted [
+278 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/android-arm'
+278 silly reify ]
+279 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/aix-ppc64
+280 silly reify mark deleted [
+280 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/@esbuild/aix-ppc64'
+280 silly reify ]
+281 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-x64
+282 silly reify mark deleted [
+282 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-x64'
+282 silly reify ]
+283 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-ia32
+284 silly reify mark deleted [
+284 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-ia32'
+284 silly reify ]
+285 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-arm64
+286 silly reify mark deleted [
+286 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/win32-arm64'
+286 silly reify ]
+287 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/sunos-x64
+288 silly reify mark deleted [
+288 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/sunos-x64'
+288 silly reify ]
+289 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/openbsd-x64
+290 silly reify mark deleted [
+290 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/openbsd-x64'
+290 silly reify ]
+291 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/netbsd-x64
+292 silly reify mark deleted [
+292 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/netbsd-x64'
+292 silly reify ]
+293 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-x64
+294 silly reify mark deleted [
+294 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-x64'
+294 silly reify ]
+295 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-s390x
+296 silly reify mark deleted [
+296 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-s390x'
+296 silly reify ]
+297 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-riscv64
+298 silly reify mark deleted [
+298 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-riscv64'
+298 silly reify ]
+299 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-ppc64
+300 silly reify mark deleted [
+300 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-ppc64'
+300 silly reify ]
+301 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-mips64el
+302 silly reify mark deleted [
+302 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-mips64el'
+302 silly reify ]
+303 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-loong64
+304 silly reify mark deleted [
+304 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-loong64'
+304 silly reify ]
+305 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-ia32
+306 silly reify mark deleted [
+306 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-ia32'
+306 silly reify ]
+307 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-arm64
+308 silly reify mark deleted [
+308 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-arm64'
+308 silly reify ]
+309 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-arm
+310 silly reify mark deleted [
+310 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/linux-arm'
+310 silly reify ]
+311 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/freebsd-x64
+312 silly reify mark deleted [
+312 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/freebsd-x64'
+312 silly reify ]
+313 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/freebsd-arm64
+314 silly reify mark deleted [
+314 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/freebsd-arm64'
+314 silly reify ]
+315 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/darwin-x64
+316 silly reify mark deleted [
+316 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/darwin-x64'
+316 silly reify ]
+317 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-x64
+318 silly reify mark deleted [
+318 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-x64'
+318 silly reify ]
+319 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-arm64
+320 silly reify mark deleted [
+320 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-arm64'
+320 silly reify ]
+321 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-arm
+322 silly reify mark deleted [
+322 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/android-arm'
+322 silly reify ]
+323 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/aix-ppc64
+324 silly reify mark deleted [
+324 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vitest/node_modules/@esbuild/aix-ppc64'
+324 silly reify ]
+325 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-x64
+326 silly reify mark deleted [
+326 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-x64'
+326 silly reify ]
+327 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-ia32
+328 silly reify mark deleted [
+328 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-ia32'
+328 silly reify ]
+329 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-arm64
+330 silly reify mark deleted [
+330 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/win32-arm64'
+330 silly reify ]
+331 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/sunos-x64
+332 silly reify mark deleted [
+332 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/sunos-x64'
+332 silly reify ]
+333 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/openbsd-x64
+334 silly reify mark deleted [
+334 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/openbsd-x64'
+334 silly reify ]
+335 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/netbsd-x64
+336 silly reify mark deleted [
+336 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/netbsd-x64'
+336 silly reify ]
+337 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-x64
+338 silly reify mark deleted [
+338 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-x64'
+338 silly reify ]
+339 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-s390x
+340 silly reify mark deleted [
+340 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-s390x'
+340 silly reify ]
+341 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-riscv64
+342 silly reify mark deleted [
+342 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-riscv64'
+342 silly reify ]
+343 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-ppc64
+344 silly reify mark deleted [
+344 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-ppc64'
+344 silly reify ]
+345 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-mips64el
+346 silly reify mark deleted [
+346 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-mips64el'
+346 silly reify ]
+347 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-loong64
+348 silly reify mark deleted [
+348 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-loong64'
+348 silly reify ]
+349 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-ia32
+350 silly reify mark deleted [
+350 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-ia32'
+350 silly reify ]
+351 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-arm64
+352 silly reify mark deleted [
+352 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-arm64'
+352 silly reify ]
+353 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-arm
+354 silly reify mark deleted [
+354 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/linux-arm'
+354 silly reify ]
+355 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/freebsd-x64
+356 silly reify mark deleted [
+356 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/freebsd-x64'
+356 silly reify ]
+357 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/freebsd-arm64
+358 silly reify mark deleted [
+358 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/freebsd-arm64'
+358 silly reify ]
+359 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/darwin-x64
+360 silly reify mark deleted [
+360 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/darwin-x64'
+360 silly reify ]
+361 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-x64
+362 silly reify mark deleted [
+362 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-x64'
+362 silly reify ]
+363 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-arm64
+364 silly reify mark deleted [
+364 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-arm64'
+364 silly reify ]
+365 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-arm
+366 silly reify mark deleted [
+366 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/android-arm'
+366 silly reify ]
+367 verbose reify failed optional dependency /Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/aix-ppc64
+368 silly reify mark deleted [
+368 silly reify   '/Applications/XAMPP/xamppfiles/htdocs/AETHERIS/node_modules/vite-node/node_modules/@esbuild/aix-ppc64'
+368 silly reify ]
+369 timing reifyNode:node_modules/lightningcss-win32-x64-msvc Completed in 11ms
+370 timing reifyNode:node_modules/lightningcss-win32-arm64-msvc Completed in 11ms
+371 timing reifyNode:node_modules/lightningcss-linux-x64-musl Completed in 11ms
+372 timing reifyNode:node_modules/lightningcss-linux-x64-gnu Completed in 11ms
+373 timing reifyNode:node_modules/lightningcss-linux-arm64-musl Completed in 11ms
+374 timing reifyNode:node_modules/lightningcss-linux-arm64-gnu Completed in 11ms
+375 timing reifyNode:node_modules/lightningcss-linux-arm-gnueabihf Completed in 11ms
+376 timing reifyNode:node_modules/lightningcss-freebsd-x64 Completed in 11ms
+377 timing reifyNode:node_modules/lightningcss-darwin-x64 Completed in 10ms
+378 timing reifyNode:node_modules/lightningcss-android-arm64 Completed in 10ms
+379 timing reifyNode:node_modules/@unrs/resolver-binding-win32-x64-msvc Completed in 10ms
+380 timing reifyNode:node_modules/@unrs/resolver-binding-win32-ia32-msvc Completed in 10ms
+381 timing reifyNode:node_modules/@unrs/resolver-binding-win32-arm64-msvc Completed in 10ms
+382 timing reifyNode:node_modules/@unrs/resolver-binding-wasm32-wasi Completed in 10ms
+383 timing reifyNode:node_modules/@unrs/resolver-binding-openharmony-arm64 Completed in 10ms
+384 timing reifyNode:node_modules/@unrs/resolver-binding-linux-x64-musl Completed in 10ms
+385 timing reifyNode:node_modules/@unrs/resolver-binding-linux-x64-gnu Completed in 10ms
+386 timing reifyNode:node_modules/@unrs/resolver-binding-linux-s390x-gnu Completed in 10ms
+387 timing reifyNode:node_modules/@unrs/resolver-binding-linux-riscv64-musl Completed in 10ms
+388 timing reifyNode:node_modules/@unrs/resolver-binding-linux-riscv64-gnu Completed in 11ms
+389 timing reifyNode:node_modules/@unrs/resolver-binding-linux-ppc64-gnu Completed in 11ms
+390 timing reifyNode:node_modules/@unrs/resolver-binding-linux-loong64-musl Completed in 11ms
+391 timing reifyNode:node_modules/@unrs/resolver-binding-linux-loong64-gnu Completed in 11ms
+392 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm64-musl Completed in 11ms
+393 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm64-gnu Completed in 11ms
+394 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm-musleabihf Completed in 11ms
+395 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm-gnueabihf Completed in 11ms
+396 timing reifyNode:node_modules/@unrs/resolver-binding-freebsd-x64 Completed in 11ms
+397 timing reifyNode:node_modules/@unrs/resolver-binding-darwin-x64 Completed in 11ms
+398 timing reifyNode:node_modules/@unrs/resolver-binding-android-arm64 Completed in 11ms
+399 timing reifyNode:node_modules/@unrs/resolver-binding-android-arm-eabi Completed in 11ms
+400 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 11ms
+401 timing reifyNode:node_modules/@rollup/rollup-win32-x64-gnu Completed in 11ms
+402 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 11ms
+403 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 11ms
+404 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 11ms
+405 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 11ms
+406 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 11ms
+407 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 11ms
+408 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 11ms
+409 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 11ms
+410 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 11ms
+411 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 11ms
+412 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 11ms
+413 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 11ms
+414 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 11ms
+415 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 11ms
+416 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 11ms
+417 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 12ms
+418 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 12ms
+419 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 12ms
+420 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 12ms
+421 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 12ms
+422 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 12ms
+423 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 12ms
+424 timing reifyNode:node_modules/@rolldown/binding-win32-x64-msvc Completed in 12ms
+425 timing reifyNode:node_modules/@rolldown/binding-win32-arm64-msvc Completed in 12ms
+426 timing reifyNode:node_modules/@rolldown/binding-wasm32-wasi Completed in 12ms
+427 timing reifyNode:node_modules/@rolldown/binding-openharmony-arm64 Completed in 12ms
+428 timing reifyNode:node_modules/@rolldown/binding-linux-x64-musl Completed in 12ms
+429 timing reifyNode:node_modules/@rolldown/binding-linux-x64-gnu Completed in 12ms
+430 timing reifyNode:node_modules/@rolldown/binding-linux-s390x-gnu Completed in 12ms
+431 timing reifyNode:node_modules/@rolldown/binding-linux-ppc64-gnu Completed in 12ms
+432 timing reifyNode:node_modules/@rolldown/binding-linux-arm64-musl Completed in 12ms
+433 timing reifyNode:node_modules/@rolldown/binding-linux-arm64-gnu Completed in 12ms
+434 timing reifyNode:node_modules/@rolldown/binding-linux-arm-gnueabihf Completed in 12ms
+435 timing reifyNode:node_modules/@rolldown/binding-freebsd-x64 Completed in 12ms
+436 timing reifyNode:node_modules/@rolldown/binding-darwin-x64 Completed in 12ms
+437 timing reifyNode:node_modules/@rolldown/binding-darwin-arm64 Completed in 12ms
+438 timing reifyNode:node_modules/@rolldown/binding-android-arm64 Completed in 13ms
+439 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 13ms
+440 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 14ms
+441 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 13ms
+442 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 13ms
+443 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 13ms
+444 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 13ms
+445 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 13ms
+446 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 13ms
+447 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 13ms
+448 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 13ms
+449 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 13ms
+450 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 13ms
+451 timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 13ms
+452 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 13ms
+453 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 13ms
+454 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 13ms
+455 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 13ms
+456 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 13ms
+457 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 13ms
+458 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 13ms
+459 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 13ms
+460 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 13ms
+461 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 13ms
+462 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 13ms
+463 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 13ms
+464 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 13ms
+465 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 13ms
+466 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 13ms
+467 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 13ms
+468 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 13ms
+469 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 13ms
+470 timing reifyNode:node_modules/@esbuild/android-arm Completed in 13ms
+471 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 13ms
+472 timing reifyNode:node_modules/vitest/node_modules/@esbuild/win32-x64 Completed in 13ms
+473 timing reifyNode:node_modules/vitest/node_modules/@esbuild/win32-ia32 Completed in 13ms
+474 timing reifyNode:node_modules/vitest/node_modules/@esbuild/win32-arm64 Completed in 13ms
+475 timing reifyNode:node_modules/vitest/node_modules/@esbuild/sunos-x64 Completed in 13ms
+476 timing reifyNode:node_modules/vitest/node_modules/@esbuild/openbsd-x64 Completed in 13ms
+477 timing reifyNode:node_modules/vitest/node_modules/@esbuild/netbsd-x64 Completed in 13ms
+478 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-x64 Completed in 13ms
+479 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-s390x Completed in 13ms
+480 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-riscv64 Completed in 13ms
+481 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-ppc64 Completed in 13ms
+482 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-mips64el Completed in 13ms
+483 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-loong64 Completed in 13ms
+484 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-ia32 Completed in 13ms
+485 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-arm64 Completed in 13ms
+486 timing reifyNode:node_modules/vitest/node_modules/@esbuild/linux-arm Completed in 13ms
+487 timing reifyNode:node_modules/vitest/node_modules/@esbuild/freebsd-x64 Completed in 13ms
+488 timing reifyNode:node_modules/vitest/node_modules/@esbuild/freebsd-arm64 Completed in 13ms
+489 timing reifyNode:node_modules/vitest/node_modules/@esbuild/darwin-x64 Completed in 13ms
+490 timing reifyNode:node_modules/vitest/node_modules/@esbuild/android-x64 Completed in 13ms
+491 timing reifyNode:node_modules/vitest/node_modules/@esbuild/android-arm64 Completed in 13ms
+492 timing reifyNode:node_modules/vitest/node_modules/@esbuild/android-arm Completed in 13ms
+493 timing reifyNode:node_modules/vitest/node_modules/@esbuild/aix-ppc64 Completed in 13ms
+494 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/win32-x64 Completed in 13ms
+495 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/win32-ia32 Completed in 13ms
+496 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/win32-arm64 Completed in 13ms
+497 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/sunos-x64 Completed in 13ms
+498 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/openbsd-x64 Completed in 14ms
+499 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/netbsd-x64 Completed in 14ms
+500 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-x64 Completed in 14ms
+501 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-s390x Completed in 14ms
+502 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-riscv64 Completed in 14ms
+503 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-ppc64 Completed in 14ms
+504 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-mips64el Completed in 14ms
+505 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-loong64 Completed in 14ms
+506 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-ia32 Completed in 14ms
+507 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-arm64 Completed in 14ms
+508 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/linux-arm Completed in 14ms
+509 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/freebsd-x64 Completed in 14ms
+510 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/freebsd-arm64 Completed in 14ms
+511 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/darwin-x64 Completed in 14ms
+512 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/android-x64 Completed in 14ms
+513 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/android-arm64 Completed in 14ms
+514 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/android-arm Completed in 14ms
+515 timing reifyNode:node_modules/vite-node/node_modules/@esbuild/aix-ppc64 Completed in 14ms
+516 silly tarball no local data for @google/generative-ai@https://registry.npmjs.org/@google/generative-ai/-/generative-ai-0.24.1.tgz. Extracting by manifest.
+517 http fetch GET 200 https://registry.npmjs.org/@google/generative-ai/-/generative-ai-0.24.1.tgz 651ms (cache miss)
+518 timing reifyNode:node_modules/@google/generative-ai Completed in 670ms
+519 timing reify:unpack Completed in 670ms
+520 timing reify:unretire Completed in 0ms
+521 timing build:queue Completed in 2ms
+522 timing build:deps Completed in 3ms
+523 timing build Completed in 3ms
+524 timing reify:build Completed in 4ms
+525 timing reify:trash Completed in 6ms
+526 timing reify:save Completed in 148ms
+527 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1010ms
+528 timing auditReport:getReport Completed in 1014ms
+529 silly audit report {
+529 silly audit report   esbuild: [
+529 silly audit report     {
+529 silly audit report       id: 1102341,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+529 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '<=0.24.2',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ],
+529 silly audit report   glob: [
+529 silly audit report     {
+529 silly audit report       id: 1109842,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-5j98-mcp5-4vw2',
+529 silly audit report       title: 'glob CLI: Command injection via -c/--cmd executes matches with shell:true',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=10.2.0 <10.5.0',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ],
+529 silly audit report   next: [
+529 silly audit report     {
+529 silly audit report       id: 1117931,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-8h8q-6873-q5fj',
+529 silly audit report       title: 'Next.js Vulnerable to Denial of Service with Server Components',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118942,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-3g8h-86w9-wvmq',
+529 silly audit report       title: "Next.js's Middleware / Proxy redirects can be cache-poisoned",
+529 silly audit report       severity: 'low',
+529 silly audit report       vulnerable_versions: '>=12.2.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118944,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-ffhc-5mcf-pf4q',
+529 silly audit report       title: 'Next.js vulnerable to cross-site scripting in App Router applications using CSP nonces',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=13.4.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118946,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-vfv6-92ff-j949',
+529 silly audit report       title: 'Next.js vulnerable to cache poisoning via collisions in React Server Component cache-busting',
+529 silly audit report       severity: 'low',
+529 silly audit report       vulnerable_versions: '>=13.4.6 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118948,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-gx5p-jg67-6x7h',
+529 silly audit report       title: 'Next.js has cross-site scripting in beforeInteractive scripts with untrusted input',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118952,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-h64f-5h5j-jqjh',
+529 silly audit report       title: 'Next.js has a Denial of Service in the Image Optimization API',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118954,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-c4j6-fc7j-m34r',
+529 silly audit report       title: 'Next.js vulnerable to server-side request forgery in applications using WebSocket upgrades',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=13.4.13 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118958,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-wfc6-r584-vfw7',
+529 silly audit report       title: 'Next.js vulnerable to cache poisoning in React Server Component responses',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=14.2.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1118962,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-36qx-fr4f-26g5',
+529 silly audit report       title: 'Next.js has a Middleware / Proxy bypass in Pages Router applications using i18n',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=12.2.0 <15.5.16',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1112593,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+529 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1112653,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+529 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1114897,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+529 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1114940,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+529 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     },
+529 silly audit report     {
+529 silly audit report       id: 1116376,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-q4gf-8mx6-v5v3',
+529 silly audit report       title: 'Next.js has a Denial of Service with Server Components',
+529 silly audit report       severity: 'high',
+529 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.15',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ],
+529 silly audit report   postcss: [
+529 silly audit report     {
+529 silly audit report       id: 1117015,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+529 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '<8.5.10',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ],
+529 silly audit report   vite: [
+529 silly audit report     {
+529 silly audit report       id: 1116229,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+529 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+529 silly audit report       severity: 'moderate',
+529 silly audit report       vulnerable_versions: '<=6.4.1',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ],
+529 silly audit report   vitest: [
+529 silly audit report     {
+529 silly audit report       id: 1117403,
+529 silly audit report       url: 'https://github.com/advisories/GHSA-9crc-q9x8-hgqq',
+529 silly audit report       title: 'Vitest allows Remote Code Execution when accessing a malicious website while Vitest API server is listening',
+529 silly audit report       severity: 'critical',
+529 silly audit report       vulnerable_versions: '>=1.0.0 <1.6.1',
+529 silly audit report       cwe: [Array],
+529 silly audit report       cvss: [Object]
+529 silly audit report     }
+529 silly audit report   ]
+529 silly audit report }
+530 timing metavuln:cache:get:security-advisory:esbuild:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 9ms
+531 timing metavuln:cache:get:security-advisory:glob:NTB2XjbDOgk4lkd8PZ3tUAm1F3E/ohGF6rl9/3LEO7Z0FDzSR5nWwzd3nUENA3NCNdyeR+35DOC12wPml2IV+g== Completed in 9ms
+532 timing metavuln:cache:get:security-advisory:next:vuHRAt/BWP+uFUF464Kr/XSRYkeSqfN5BDmhcIb/NC1N1+svfuQ2l2f3I8OAbkQ/mG7ykLMzXkmvGEUPm2u2Qw== Completed in 9ms
+533 timing metavuln:cache:get:security-advisory:next:VRq8TIz+ZjPW6hQ8T0wOUvYSO+eDdwertI1rhHbEx2+MnlsYlHSTbstvXQA6lxcqK9z1/S2wl1LkMaE/zyyBqQ== Completed in 9ms
+534 timing metavuln:cache:get:security-advisory:next:DZYkKghCBsNDjTsBZNBEXyRREeg7p+okX/wID7N5vkHCP0YEApmDVowtEZM/R2oPjVif2+FMpky58BcndZaeVw== Completed in 9ms
+535 timing metavuln:cache:get:security-advisory:next:xzdJmsYdvRh0EQkDGL0AyVFiSXnitWj2NAhYTh3IKGb+bmS+UTMQEFlAApq2S61UaSRojDWI97pB3MQWhXaqtQ== Completed in 10ms
+536 timing metavuln:cache:get:security-advisory:next:QS567o8JKcXXuwY6XgUM7iN0h1udbMICZ90PR0BPbALyE4LpXJa2pMgZmzYK7JIgCPBOcRocAGRvrI0FNRN1mw== Completed in 9ms
+537 timing metavuln:cache:get:security-advisory:next:DjRros6yRdbdMY1erdbppMnNz8Rmm2kj4blzhPIWdXeKoCHONkBZ5vVD4sP1pYEEvfI65YV96+RIqLpMSsquWw== Completed in 9ms
+538 timing metavuln:cache:get:security-advisory:next:ZLUG2HrRQ82YKcCmqQseWvnIlwyr8cZtjKOAKVosnHoYP8HjWF1EuSjurwrvNDBZyCjJrVDZK3B+SIULeNAVPw== Completed in 9ms
+539 timing metavuln:cache:get:security-advisory:next:yUMYj8Dn5FtiQukesvIM6nN+0pF7xT4MTvfwNyG8V2sLOtPxPIrVStVUT2pdeSKG5qq/RTa9T+LiB9o7WZhZKA== Completed in 11ms
+540 timing metavuln:cache:get:security-advisory:next:BPqX8jSKEW35PnDy8r1SGTHQhLIic/IfjienlQq8LFwmauE7Ce5RjzIw5W/PPwSATJecla0O4h/l+qNjjzPUcQ== Completed in 10ms
+541 timing metavuln:cache:get:security-advisory:next:ItJZ7qy1iUzxbodxayiejQRfV5cCQvX0fnpMwXLDBxbVruEW2O3qtQbmcGQKdCKBR49CjNmJDt46lWVTov1sQA== Completed in 10ms
+542 timing metavuln:cache:get:security-advisory:vite:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 10ms
+543 timing metavuln:cache:get:security-advisory:next:usPEHPdWuyjsh+HI2+rwEPUzXWKe09mdbdIIFpG2O1Zd2medsdvkN5wwKHxOzkpfm2FC7E54Nx/sY33UEU3C1Q== Completed in 11ms
+544 timing metavuln:cache:get:security-advisory:next:3TA4O3EmeHOziCX4u9l4IBFBAPxWeQGxoijidoX+ldET6YKxjUcLFRhQVFM5X6vREfhCEhSA9T7d5fKHVz2CcA== Completed in 11ms
+545 timing metavuln:cache:get:security-advisory:vitest:awyTAqYmhK7P8KAYFRkVyzbCULeXU41sFKC4hV4bEeJ8g7r1T2zMx8PsueuONM97UNhpru4AszFfZRYMrTGlng== Completed in 11ms
+546 timing metavuln:cache:get:security-advisory:next:GCi2VjQ+xIankByzHe4ZXO0Uwx2FJAEb3wwNZc/B4wp4HXVgOhv8Jd02gDZ/z3OGbsWKVMoiRfJ+NReCbZIsqA== Completed in 11ms
+547 timing metavuln:cache:get:security-advisory:postcss:685RVq5xScaqegAXk2BRJrsMaZmsz1d/volUoA67iVw3AvHhUlX03u+VPRrmo8iuObcSDvuZF+fuiOnLC9L1uA== Completed in 11ms
+548 timing metavuln:cache:get:security-advisory:next:owasql2RGfaRn6gCrEIYc1sLXkl1GuxqJbyX4pwqCr7f/tVRvnWuaIoanwkbKZ9RBWsvTnyiF9QrYyjzAdBqCg== Completed in 12ms
+549 http fetch GET 200 https://registry.npmjs.org/esbuild 283ms (cache revalidated)
+550 timing metavuln:packument:esbuild Completed in 289ms
+551 timing metavuln:load:security-advisory:esbuild:1102341 Completed in 4ms
+552 timing metavuln:calculate:security-advisory:esbuild:1102341 Completed in 294ms
+553 http fetch GET 200 https://registry.npmjs.org/next 335ms (cache revalidated)
+554 timing metavuln:packument:next Completed in 497ms
+555 timing metavuln:load:security-advisory:next:1117931 Completed in 33ms
+556 timing metavuln:calculate:security-advisory:next:1117931 Completed in 530ms
+557 timing metavuln:load:security-advisory:next:1118942 Completed in 26ms
+558 timing metavuln:calculate:security-advisory:next:1118942 Completed in 557ms
+559 timing metavuln:load:security-advisory:next:1118944 Completed in 25ms
+560 timing metavuln:calculate:security-advisory:next:1118944 Completed in 582ms
+561 timing metavuln:load:security-advisory:next:1118946 Completed in 25ms
+562 timing metavuln:calculate:security-advisory:next:1118946 Completed in 607ms
+563 timing metavuln:load:security-advisory:next:1118948 Completed in 25ms
+564 timing metavuln:calculate:security-advisory:next:1118948 Completed in 632ms
+565 timing metavuln:load:security-advisory:next:1118952 Completed in 25ms
+566 timing metavuln:calculate:security-advisory:next:1118952 Completed in 656ms
+567 timing metavuln:load:security-advisory:next:1118954 Completed in 25ms
+568 timing metavuln:calculate:security-advisory:next:1118954 Completed in 681ms
+569 timing metavuln:load:security-advisory:next:1118958 Completed in 25ms
+570 timing metavuln:calculate:security-advisory:next:1118958 Completed in 706ms
+571 timing metavuln:load:security-advisory:next:1118962 Completed in 25ms
+572 timing metavuln:calculate:security-advisory:next:1118962 Completed in 731ms
+573 timing metavuln:load:security-advisory:next:1112593 Completed in 27ms
+574 timing metavuln:calculate:security-advisory:next:1112593 Completed in 758ms
+575 timing metavuln:load:security-advisory:next:1112653 Completed in 25ms
+576 timing metavuln:calculate:security-advisory:next:1112653 Completed in 783ms
+577 timing metavuln:load:security-advisory:next:1114897 Completed in 27ms
+578 timing metavuln:calculate:security-advisory:next:1114897 Completed in 810ms
+579 timing metavuln:load:security-advisory:next:1114940 Completed in 27ms
+580 timing metavuln:calculate:security-advisory:next:1114940 Completed in 837ms
+581 timing metavuln:load:security-advisory:next:1116376 Completed in 25ms
+582 timing metavuln:calculate:security-advisory:next:1116376 Completed in 862ms
+583 http fetch GET 200 https://registry.npmjs.org/postcss 866ms (cache revalidated)
+584 timing metavuln:packument:postcss Completed in 867ms
+585 timing metavuln:load:security-advisory:postcss:1117015 Completed in 0ms
+586 timing metavuln:calculate:security-advisory:postcss:1117015 Completed in 868ms
+587 http fetch GET 200 https://registry.npmjs.org/glob 869ms (cache revalidated)
+588 timing metavuln:packument:glob Completed in 870ms
+589 timing metavuln:load:security-advisory:glob:1109842 Completed in 0ms
+590 timing metavuln:calculate:security-advisory:glob:1109842 Completed in 870ms
+591 http fetch GET 200 https://registry.npmjs.org/vite 871ms (cache revalidated)
+592 timing metavuln:packument:vite Completed in 881ms
+593 timing metavuln:load:security-advisory:vite:1116229 Completed in 2ms
+594 timing metavuln:calculate:security-advisory:vite:1116229 Completed in 883ms
+595 http fetch GET 200 https://registry.npmjs.org/vitest 884ms (cache revalidated)
+596 timing metavuln:packument:vitest Completed in 890ms
+597 timing metavuln:load:security-advisory:vitest:1117403 Completed in 0ms
+598 timing metavuln:calculate:security-advisory:vitest:1117403 Completed in 890ms
+599 timing metavuln:cache:get:security-advisory:vite:tMBsdAS7JBTyRORp0YaJR984WAAsOxgmReSLBN0Nd41GhzEakjROICqAJ31iOdYG5Ijo/MlJ01p3ig1iN88+Tw== Completed in 2ms
+600 timing metavuln:load:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 1ms
+601 timing metavuln:calculate:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 3ms
+602 timing metavuln:cache:get:security-advisory:@next/eslint-plugin-next:PvOLmaLvBa62/MSwOoeVcFtG41ceA4r3c/+CRslQCFHIqz2IKPEVFqVWr5T0jcFHrN6kR5E5FbNMo23kCF9gdg== Completed in 2ms
+603 http fetch GET 200 https://registry.npmjs.org/@next%2feslint-plugin-next 676ms (cache revalidated)
+604 timing metavuln:packument:@next/eslint-plugin-next Completed in 687ms
+605 timing metavuln:load:security-advisory:@next/eslint-plugin-next:NTB2XjbDOgk4lkd8PZ3tUAm1F3E/ohGF6rl9/3LEO7Z0FDzSR5nWwzd3nUENA3NCNdyeR+35DOC12wPml2IV+g== Completed in 24ms
+606 timing metavuln:calculate:security-advisory:@next/eslint-plugin-next:NTB2XjbDOgk4lkd8PZ3tUAm1F3E/ohGF6rl9/3LEO7Z0FDzSR5nWwzd3nUENA3NCNdyeR+35DOC12wPml2IV+g== Completed in 711ms
+607 timing metavuln:cache:get:security-advisory:next:++TMQRwRMuAg5JaA57A8kadT8SbeBIqrzl+otPGsE46Z5PGnGvwSbtrHMqHSzpH6UEwsYqk9mYjoPnnsNBcW7Q== Completed in 2ms
+608 timing metavuln:load:security-advisory:next:685RVq5xScaqegAXk2BRJrsMaZmsz1d/volUoA67iVw3AvHhUlX03u+VPRrmo8iuObcSDvuZF+fuiOnLC9L1uA== Completed in 33ms
+609 timing metavuln:calculate:security-advisory:next:685RVq5xScaqegAXk2BRJrsMaZmsz1d/volUoA67iVw3AvHhUlX03u+VPRrmo8iuObcSDvuZF+fuiOnLC9L1uA== Completed in 35ms
+610 timing metavuln:cache:get:security-advisory:vite-node:EAixtXayQMFouqecta29iVHcF67Dczfr3abjZpEvw8o8pVIoBOGIb4xqqMgDracG9ahvfCR6w8jHVN2KlIj/BQ== Completed in 2ms
+611 timing metavuln:cache:get:security-advisory:vitest:x6iOi6A3E3a6f2luSmd18ipRnitscEA50p/ipmaZBrQwihc7aVw2tzyBktHjVcdTD2aCYaiHIzs+Rb34C98yXQ== Completed in 2ms
+612 timing metavuln:load:security-advisory:vitest:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 1ms
+613 timing metavuln:calculate:security-advisory:vitest:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 3ms
+614 http fetch GET 200 https://registry.npmjs.org/vite-node 239ms (cache revalidated)
+615 timing metavuln:packument:vite-node Completed in 243ms
+616 timing metavuln:load:security-advisory:vite-node:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 1ms
+617 timing metavuln:calculate:security-advisory:vite-node:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 244ms
+618 timing metavuln:cache:get:security-advisory:eslint-config-next:volOrje9bMc3dFnnsdrvpxPiUdLeCov80INEmkNw6JaX2GvepJi9bsm+RGK6makQSL3N/126SYrBcGcbXdAW0g== Completed in 3ms
+619 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 257ms (cache revalidated)
+620 timing metavuln:packument:eslint-config-next Completed in 274ms
+621 timing metavuln:load:security-advisory:eslint-config-next:PvOLmaLvBa62/MSwOoeVcFtG41ceA4r3c/+CRslQCFHIqz2IKPEVFqVWr5T0jcFHrN6kR5E5FbNMo23kCF9gdg== Completed in 24ms
+622 timing metavuln:calculate:security-advisory:eslint-config-next:PvOLmaLvBa62/MSwOoeVcFtG41ceA4r3c/+CRslQCFHIqz2IKPEVFqVWr5T0jcFHrN6kR5E5FbNMo23kCF9gdg== Completed in 298ms
+623 timing metavuln:cache:get:security-advisory:vitest:fNlgmzweVJ+IWQ7Y7uMsS/QA6FaxV7y8Eno7q6vIY1IiFY/5eyeeV4X/44l7vDAJwNzV7dtVzTXIlay37cRcfw== Completed in 2ms
+624 timing metavuln:load:security-advisory:vitest:EAixtXayQMFouqecta29iVHcF67Dczfr3abjZpEvw8o8pVIoBOGIb4xqqMgDracG9ahvfCR6w8jHVN2KlIj/BQ== Completed in 1ms
+625 timing metavuln:calculate:security-advisory:vitest:EAixtXayQMFouqecta29iVHcF67Dczfr3abjZpEvw8o8pVIoBOGIb4xqqMgDracG9ahvfCR6w8jHVN2KlIj/BQ== Completed in 3ms
+626 timing auditReport:init Completed in 2219ms
+627 timing reify:audit Completed in 3234ms
+628 timing reify Completed in 4272ms
+629 silly ADD node_modules/@google/generative-ai
+630 silly ADD
+631 silly ADD
+632 silly ADD
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD
+639 silly ADD
+640 silly ADD
+641 silly ADD
+642 silly ADD
+643 silly ADD
+644 silly ADD
+645 silly ADD
+646 silly ADD
+647 silly ADD
+648 silly ADD
+649 silly ADD
+650 silly ADD
+651 silly ADD
+652 silly ADD
+653 silly ADD
+654 silly ADD
+655 silly ADD
+656 silly ADD
+657 silly ADD
+658 silly ADD
+659 silly ADD
+660 silly ADD
+661 silly ADD
+662 silly ADD
+663 silly ADD
+664 silly ADD
+665 silly ADD
+666 silly ADD
+667 silly ADD
+668 silly ADD
+669 silly ADD
+670 silly ADD
+671 silly ADD
+672 silly ADD
+673 silly ADD
+674 silly ADD
+675 silly ADD
+676 silly ADD
+677 silly ADD
+678 silly ADD
+679 silly ADD
+680 silly ADD
+681 silly ADD
+682 silly ADD
+683 silly ADD
+684 silly ADD
+685 silly ADD
+686 silly ADD
+687 silly ADD
+688 silly ADD
+689 silly ADD
+690 silly ADD
+691 silly ADD
+692 silly ADD
+693 silly ADD
+694 silly ADD
+695 silly ADD
+696 silly ADD
+697 silly ADD
+698 silly ADD
+699 silly ADD
+700 silly ADD
+701 silly ADD
+702 silly ADD
+703 silly ADD
+704 silly ADD
+705 silly ADD
+706 silly ADD
+707 silly ADD
+708 silly ADD
+709 silly ADD
+710 silly ADD
+711 silly ADD
+712 silly ADD
+713 silly ADD
+714 silly ADD
+715 silly ADD
+716 silly ADD
+717 silly ADD
+718 silly ADD
+719 silly ADD
+720 silly ADD
+721 silly ADD
+722 silly ADD
+723 silly ADD
+724 silly ADD
+725 silly ADD
+726 silly ADD
+727 silly ADD
+728 silly ADD
+729 silly ADD
+730 silly ADD
+731 silly ADD
+732 silly ADD
+733 silly ADD
+734 silly ADD
+735 silly ADD
+736 silly ADD
+737 silly ADD
+738 silly ADD
+739 silly ADD
+740 silly ADD
+741 silly ADD
+742 silly ADD
+743 silly ADD
+744 silly ADD
+745 silly ADD
+746 silly ADD
+747 silly ADD
+748 silly ADD
+749 silly ADD
+750 silly ADD
+751 silly ADD
+752 silly ADD
+753 silly ADD
+754 silly ADD
+755 silly ADD
+756 silly ADD
+757 silly ADD
+758 silly ADD
+759 silly ADD
+760 silly ADD
+761 silly ADD
+762 silly ADD
+763 silly ADD
+764 silly ADD
+765 silly ADD
+766 silly ADD
+767 silly ADD
+768 silly ADD
+769 silly ADD
+770 silly ADD
+771 silly ADD
+772 silly ADD
+773 silly ADD
+774 silly ADD
+775 silly ADD
+776 silly ADD
+777 timing command:install Completed in 4349ms
+778 verbose exit 0
+779 timing npm Completed in 4500ms
+780 info ok

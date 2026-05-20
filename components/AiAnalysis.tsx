@@ -73,7 +73,7 @@ export function AiAnalysis({ initialData, onRefresh }: AiAnalysisProps) {
           </div>
           <div>
             <h3 className="font-semibold text-lg">AI 智能风控简报</h3>
-            <p className="text-xs text-foreground/50">由 Claude AI 提供深度市场与汇率风险剖析</p>
+            <p className="text-xs text-foreground/50">由 Google Gemini AI 提供深度市场与汇率风险剖析</p>
           </div>
         </div>
 
@@ -93,7 +93,7 @@ export function AiAnalysis({ initialData, onRefresh }: AiAnalysisProps) {
             <div className="absolute inset-0 border-2 border-indigo-500/20 rounded-full" />
             <div className="absolute inset-0 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin" />
           </div>
-          <p className="text-sm text-foreground/60 animate-pulse">正在整合持仓，并连线 Claude AI 分析新闻与风控指标...</p>
+          <p className="text-sm text-foreground/60 animate-pulse">正在整合持仓，并连线 Google Gemini AI 分析新闻与风控指标...</p>
         </div>
       ) : error ? (
         <div className="p-4 rounded-2xl bg-rose-500/5 border border-rose-500/10 text-rose-500 flex items-start gap-3">
@@ -102,7 +102,7 @@ export function AiAnalysis({ initialData, onRefresh }: AiAnalysisProps) {
             <h4 className="font-medium text-sm">AI 分析暂时不可用</h4>
             <p className="text-xs text-rose-500/80 mt-1">{error}</p>
             <p className="text-[11px] text-foreground/40 mt-2">
-              请检查您的服务器环境变量是否配置了有效的 <code className="bg-foreground/5 px-1 py-0.2 rounded">ANTHROPIC_API_KEY</code> 与
+              请检查您的服务器环境变量是否配置了有效的 <code className="bg-foreground/5 px-1 py-0.2 rounded">GEMINI_API_KEY</code> 与
               <code className="bg-foreground/5 px-1 py-0.2 rounded">EXCHANGE_RATE_API_KEY</code>。
             </p>
           </div>
